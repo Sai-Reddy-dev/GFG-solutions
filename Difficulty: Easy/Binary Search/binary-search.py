@@ -7,7 +7,7 @@ class Solution:
     
             mid = low + (high - low) // 2
     
-            if arr[mid] == x and arr[mid-1] != k: 
+            if arr[mid] == x and arr[mid-1] != x: 
                 return mid
     
             elif arr[mid] < x:
